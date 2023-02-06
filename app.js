@@ -78,17 +78,17 @@
 //Returns the length of an array containing negative numbers
 
 
-function findingBadData(array){
-    let badData = [];
-    for(let i = 0; i < array.length; i ++){
-        if(array[i] < 0){
-            badData.push(array[i]);
-        }
-    }
-    let badDataLength = badData.length;
-    return badDataLength;
-}
+// function findingBadData(array){
+//     let badData = [];
+//     for(let i = 0; i < array.length; i ++){
+//         if(array[i] < 0){
+//             badData.push(array[i]);
+//         }
+//     }
+//     let badDataLength = badData.length;
+//     return badDataLength;
+// }
 
-let manAge = [20, -11, -23, 40, -22, -44, 15];
-let inputArrayP4 = findingBadData(manAge);
-console.log(inputArrayP4);
+// let manAge = [20, -11, -23, 40, -22, -44, 15];
+// let inputArrayP4 = findingBadData(manAge);
+// console.log(inputArrayP4);
