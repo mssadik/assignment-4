@@ -92,3 +92,25 @@
 // let manAge = [20, -11, -23, 40, -22, -44, 15];
 // let inputArrayP4 = findingBadData(manAge);
 // console.log(inputArrayP4);
+
+
+
+
+
+
+
+
+function gemsToDiamond(friend1gems, friend2gems, friend3gems){
+    let friend1gemsGunFol = friend1gems * 21;
+    let friend2gemsGunFol = friend2gems * 32;
+    let friend3gemsGunFol = friend3gems * 43;
+    let allFriendsgemsSum = friend1gemsGunFol + friend2gemsGunFol + friend3gemsGunFol;
+    if(allFriendsgemsSum >= 2000){
+      let a = allFriendsgemsSum - 2000;
+      return a;
+    }else{
+        return allFriendsgemsSum;
+    }
+}
+let allFriendsgems = gemsToDiamond(20, 5, 13)
+console.log(allFriendsgems);
