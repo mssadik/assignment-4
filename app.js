@@ -30,7 +30,7 @@ console.log(inputNumberP1);
 
 function evenOdd(string){
     if(isNaN(string) === false){
-        let massage = "plz input a string";
+        const massage = "plz input a string";
         return massage;
     }if(string.length % 2 === 0){
         let even = "even";
@@ -58,7 +58,7 @@ console.log(inputStringP2);
 function isLGSeven(numbers){
     let biyog = numbers - 7;
     if(isNaN(numbers) === true){
-        let massage = "plz input a number";
+        const massage = "plz input a number";
         return massage;
     }else if(biyog < 7){
         return biyog;
